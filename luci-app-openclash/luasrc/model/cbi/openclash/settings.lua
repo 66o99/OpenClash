@@ -1291,8 +1291,8 @@ o = s:taboption("geo_update", Value, "geo_custom_url")
 o.title = translate("Custom GEOIP URL")
 o.rmempty = true
 o.description = translate("Custom GEOIP Data URL, Click Button Below To Refresh After Edit")
-o:value("https://fastly.jsdelivr.net/gh/Hackl0us/GeoIP2-CN@release/Country.mmdb", translate("Hackl0us-Version")..translate("(Only CN)"))
-o:value("https://fastly.jsdelivr.net/gh/alecthw/mmdb_china_ip_list@release/lite/Country.mmdb", translate("Alecthw-lite-Version")..translate("(Default mmdb)"))
+o:value("https://fastly.jsdelivr.net/gh/Hackl0us/GeoIP2-CN@release/Country.mmdb", translate("Hackl0us-Version")..translate("(Default Only CN)"))
+o:value("https://fastly.jsdelivr.net/gh/alecthw/mmdb_china_ip_list@release/lite/Country.mmdb", translate("Alecthw-lite-Version")..translate("(mmdb)"))
 o:value("https://fastly.jsdelivr.net/gh/alecthw/mmdb_china_ip_list@release/Country.mmdb", translate("Alecthw-Version")..translate("(All Info mmdb)"))
 o:value("https://geolite.clash.dev/Country.mmdb", translate("Geolite.clash.dev"))
 o.default = "http://www.ideame.top/mmdb/Country.mmdb"
